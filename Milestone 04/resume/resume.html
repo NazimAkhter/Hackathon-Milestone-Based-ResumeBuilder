@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="resume-container">
+        <header>
+            <div>
+                <h1><span id="resName"></span></h1>
+                <p><span id="resdesig"></span></p>
+            </div>
+            <img id="resImg" src="profile-pic.png" alt="Profile Picture">
+        </header>
+
+        <div class="content">
+            <aside>
+                <section id="cont" class="contact-detail">
+                    <h2>Contact Details:</h2>
+                    <p><strong>Phone:</strong></p>
+                    <p><span id="resPhone"></span></p>
+                    <br>
+                    <p><strong>Email:</strong></p>
+                    <p><span id="resEmail"></span></p>
+                    <br>
+                    <p><strong>Address:</strong></p>
+                    <p><span id="resAdd"></span></p>
+                </section>
+
+                <section id="edu" class="education">
+                    <h2>Education:</h2>
+                    <p><span id="resPass1"></span></p>
+                    <p><strong><span id="resdeg1"></span></strong></p>
+                    <p><span id="resUni1"></span></p>
+                    <br>
+                    <p><span id="resPass2"></span></p>
+                    <p><strong><span id="resdeg2"></span></strong></p>
+                    <p><span id="resUni2"></span></p>
+                </section>
+
+                <section id="skill" class="skill">
+                    <h2>Expertise:</h2>
+                    <ul>
+                        <li><span id="resSkill1"></span></li>
+                        <li><span id="resSkill2"></span></li>
+                        <li><span id="resSkill3"></span></li>
+                        <li><span id="resSkill4"></span></li>
+                        <li>Tailwind Css</li>
+                        <li>Figma</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe PhotoShop</li>
+                        <li>Inpage</li>
+                    </ul>
+                </section>
+
+                <section id="lang" class="language">
+                    <h2>Languages:</h2>
+                    <p><span id="resLang1"></span></p>
+                    <p><span id="resLang2"></span></p>
+                </section>
+            </aside>
+
+            <main class="main-content">
+                <section id="exp" class="experience">
+                    <h2>Work Experience:</h2>
+                    <div class="experience-details">
+                        <p><span id="resStyear"></span> - <span id="resEndyear"></span></p>
+                        <p><strong><span id="resCompany"></span> | <span id="resCompanyLocation"></span></strong></p>
+                        <p><span id="resDesign"></span></p>
+                        <ul>
+                            <li><span id="resAchv1"></span></li>
+                            <li><span id="resAchv2"></span></li>
+                            <li><span id="resAchv3"></span></li>
+                            <li><span id="resAchv3"></span></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="ref" class="reference">
+                    <h2>Reference:</h2>
+                    <p>Avialable upon Request</p>
+
+                </section>
+            </main>
+        </div>
+    </div>
+    <div class="btn-container">
+        <button id="print-btn" class="btn">Print</button>
+        <button id="edit-btn" class="btn">Edit</button>
+    </div>
+
+    <script src="resumescript.js"></script>
+</body>
+
+</html>

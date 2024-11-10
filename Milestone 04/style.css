@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #323232;
+}
+body h1{
+color: white;
+margin-bottom: 20px;
+font-weight: 500;
+}
+
+
+form{
+    width:40%;
+    padding: 2%;
+    background-color:#FBFBFB;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.label{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.input{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    
+    &:focus{
+        box-shadow: 1px 1px 5px #071952;
+
+    }
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.submit{
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 20%;
+    background-color: #071952;
+    color: white;
+
+    &:hover {
+        background-color: #0f297f;
+    }
+    &:active{
+        transform: scale(0.99);
+    }
+}
+
+.btn-container{
+    text-align: center;
+}
